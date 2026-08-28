@@ -1,0 +1,10 @@
+{
+  "records": 100,
+  "verified": 25,
+  "archived_direct": 11,
+  "needs_verification": 64,
+  "salary_disclosed": 17,
+  "duplicate_source_url_records": 4,
+  "duplicate_title_company_records": 2,
+  "tool_mentions": 77
+}

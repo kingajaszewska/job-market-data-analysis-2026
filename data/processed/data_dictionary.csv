@@ -1,0 +1,26 @@
+field,description,field_type
+offer_id,Unique record identifier,source
+portal,Recruitment portal,source
+job_title,Job title,source
+company,Employer name,source
+location,Location text from the listing,source
+seniority_raw,Original seniority label,source
+seniority_group,Standardized seniority group,derived
+work_mode_raw,Original work-mode label,source
+work_mode_group,Standardized work mode,derived
+employment_raw,Original contract information,source
+employment_group,Standardized employment group,derived
+category_raw,Original research category,source
+category_group,Standardized analytical category,derived
+tools_raw,Tools listed in the research sheet,source
+salary_raw,Salary information as collected,source
+salary_disclosed,Yes when salary text contains a numeric amount,derived
+record_quality,"Verified, archived direct record, or needs verification",derived
+source_url,Listing or search-result URL,source
+access_date,Date on which the source was accessed,source
+tasks_competencies,Condensed tasks and competencies,source
+requirements,Condensed requirements,source
+fit_notes,Research note explaining relevance,source
+status_raw,Original verification/status note,source
+duplicate_source_url,Flags repeated URLs,derived
+duplicate_title_company,Flags repeated title-company combinations,derived
